@@ -14,6 +14,9 @@
 		22BFFB3A24ED3EE000F39829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB3824ED3EE000F39829 /* Main.storyboard */; };
 		22BFFB3C24ED3EE200F39829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB3B24ED3EE200F39829 /* Assets.xcassets */; };
 		22BFFB3F24ED3EE200F39829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB3D24ED3EE200F39829 /* LaunchScreen.storyboard */; };
+		22BFFB4924ED4BBE00F39829 /* empty.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB4624ED4BBE00F39829 /* empty.wav */; };
+		22BFFB4A24ED4BBE00F39829 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB4724ED4BBE00F39829 /* shot.wav */; };
+		22BFFB4B24ED4BBE00F39829 /* reload.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22BFFB4824ED4BBE00F39829 /* reload.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		22BFFB3B24ED3EE200F39829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BFFB3E24ED3EE200F39829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22BFFB4024ED3EE200F39829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BFFB4624ED4BBE00F39829 /* empty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = empty.wav; sourceTree = "<group>"; };
+		22BFFB4724ED4BBE00F39829 /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
+		22BFFB4824ED4BBE00F39829 /* reload.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reload.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				22BFFB3B24ED3EE200F39829 /* Assets.xcassets */,
 				22BFFB3D24ED3EE200F39829 /* LaunchScreen.storyboard */,
 				22BFFB4024ED3EE200F39829 /* Info.plist */,
+				22BFFB4624ED4BBE00F39829 /* empty.wav */,
+				22BFFB4824ED4BBE00F39829 /* reload.wav */,
+				22BFFB4724ED4BBE00F39829 /* shot.wav */,
 			);
 			path = "Game-4";
 			sourceTree = "<group>";
@@ -128,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BFFB4A24ED4BBE00F39829 /* shot.wav in Resources */,
 				22BFFB3A24ED3EE000F39829 /* Main.storyboard in Resources */,
 				22BFFB3124ED3EE000F39829 /* GameScene.sks in Resources */,
+				22BFFB4B24ED4BBE00F39829 /* reload.wav in Resources */,
 				22BFFB3C24ED3EE200F39829 /* Assets.xcassets in Resources */,
+				22BFFB4924ED4BBE00F39829 /* empty.wav in Resources */,
 				22BFFB3F24ED3EE200F39829 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
